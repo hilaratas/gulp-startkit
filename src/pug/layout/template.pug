@@ -1,0 +1,37 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    meta(name='format-detection' content='telephone=no')
+    link(rel='stylesheet' href='./css/style.css')
+    title Главная страница
+    script.
+      var basePathToSvgSprite = document.location.protocol + '//' + document.location.host + '/sprites/';
+  body.page
+    .page__wrapper
+      .page__header
+        include ../include/header
+        include ../include/main-menu
+      .page__middle
+        block content
+      .page__footer
+        .footer-free
+        .footer
+          .footer__wrapper
+            .footer__inner
+              .footer__row
+                .footer-last-line
+                  .footer__copyholder
+                    .copyright Все права защищены 2006-2016
+    |
+
+    // Эта часть только для локальной разработки. Начало.
+    // Не копировать на боевой сайт
+    include ../include/spacingjs
+    link(rel='stylesheet' type='text/css' href='./css/link-panel-local-build-only.css')
+    include ../include/link-panel-local-build-only
+    // Эта часть только для локальной разработки. Конец.
+    // Не копировать на боевой сайт

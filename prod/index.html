@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Главная страница</title>
+  <script>
+    var basePathToSvgSprite = document.location.protocol + '//' + document.location.host + '/sprites/';
+
+  </script>
+</head>
+
+<body class="page">
+  <div class="page__wrapper">
+    <div class="page__header">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__top-left">
+            <div class="slogan">Header</div>
+          </div>
+          <div class="header__gumburger"> <button class="humb humb__htx humb--header" id="js-main-menu-toggle" aria-label="Главное меню"><span>Меню</span></button> </div>
+        </div>
+      </header>
+      <div class="main-menu main-menu--left" id="js-main-menu">
+        <div class="main-menu-wrapper" aria-hidden="true">
+          <nav class="main-menu__nav" role="navigation">
+            <ul class="main-menu__list" role="menubar">
+              <li class="main-menu__item" role="menuitem"><a class="main-menu__link" href="#">Главная</a></li>
+              <li class="main-menu__item" role="menuitem" aria-haspopup="true"><a class="main-menu__link" href="#">Акции/Спецпредложения</a> <button class="main-menu__arrow-holder"><span class="main-menu__arrow"></span></button> </li>
+              <li class="main-menu__item" role="menuitem"><a class="main-menu__link" href="#">Фильтр товаров</a></li>
+              <li class="main-menu__item" role="menuitem"><a class="main-menu__link" href="#">Распродажа</a></li>
+              <li class="main-menu__item" role="menuitem"><a class="main-menu__link" href="#">О компании</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page__middle">
+      <section class="section">
+        <div class="section__inner">
+          <div class="container-fluid">
+            <article class="text">
+              <h1>Ссылки на сверстанные страницы</h1>
+              <ul>
+                <li><a href="tech.html">Технический дизайн</a></li>
+                <li><a href="blocks.html">Блоки</a></li>
+              </ul>
+              <picture>
+                <source srcset="example/photo1-big.webp" type="image/webp"><img src="example/photo1-big.jpg">
+              </picture>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="page__footer">
+      <div class="footer-free"></div>
+      <div class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__inner">
+            <div class="footer__row">
+              <div class="footer-last-line">
+                <div class="footer__copyholder">
+                  <div class="copyright">Все права защищены 2006-2016</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- Эта часть только для локальной разработки. Начало.--> <!-- Не копировать на боевой сайт--> <!-- Deject-->
+  <script src="https://unpkg.com/spacingjs" defer></script> <!-- /Deject-->
+  <link rel="stylesheet" type="text/css" href="./css/link-panel-local-build-only.css">
+  <div class="link-panel">
+    <div class="link-panel__button"></div>
+    <div class="link-panel__inner">
+      <ul class="link-panel__list">
+        <li class="link-panel__item"><a class="link-panel__link" href="index.html">Главная страница</a></li>
+        <li class="link-panel__item"><a class="link-panel__link" href="tech.html">Технический дизайн</a></li>
+        <li class="link-panel__item"><a class="link-panel__link" href="all-blocks.html">Все блоки</a></li>
+      </ul>
+    </div>
+  </div> <!-- Эта часть только для локальной разработки. Конец.--> <!-- Не копировать на боевой сайт-->
+</body>
+
+</html>

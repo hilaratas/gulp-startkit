@@ -1,0 +1,9 @@
+@mixin h2() {
+  font-size: $font-size-h2;
+  font-weight: 400;
+  line-height: $line-height-h2;
+  color: $color-brand-1;
+  margin-top: $h2-indent-top;
+  margin-bottom: $h2-indent-bottom;
+  text-align: left;
+}

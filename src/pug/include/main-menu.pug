@@ -1,0 +1,16 @@
+#js-main-menu.main-menu.main-menu--left
+  .main-menu-wrapper(aria-hidden='true')
+    nav.main-menu__nav(role='navigation')
+      ul.main-menu__list(role='menubar')
+        li.main-menu__item(role='menuitem')
+          a.main-menu__link(href='#') Главная
+        li.main-menu__item(role='menuitem' aria-haspopup='true')
+          a.main-menu__link(href='#') Акции/Спецпредложения
+          button.main-menu__arrow-holder
+            span.main-menu__arrow
+        li.main-menu__item(role='menuitem')
+          a.main-menu__link(href='#') Фильтр товаров
+        li.main-menu__item(role='menuitem')
+          a.main-menu__link(href='#') Распродажа
+        li.main-menu__item(role='menuitem')
+          a.main-menu__link(href='#') О компании

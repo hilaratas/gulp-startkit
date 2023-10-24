@@ -1,0 +1,8 @@
+@mixin h1() {
+  font-size: $font-size-h1;
+  font-weight: 700;
+  line-height: $line-height-h1;
+  color: $color-brand-1;
+  margin: 0 0 $h1-indent-bottom 0;
+  text-align: left;
+}
