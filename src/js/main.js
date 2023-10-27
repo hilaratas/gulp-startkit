@@ -20,7 +20,7 @@ $(function () {
     htmlEl.classList.add('is-not-mobile')
   }
 
-  sliders({a: '1', b: '2'})
+  sliders()
   gumburger()
   popups()
   validate()
