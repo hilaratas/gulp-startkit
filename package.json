@@ -43,7 +43,7 @@
   "scripts": {
     "start": "gulp dev",
     "build": "gulp build",
-    "prettyW": "prettier --write src/js/*.js"
+    "pretty": "console.log(123)"
   },
   "husky": {
     "hooks": {
